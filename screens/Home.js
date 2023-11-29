@@ -23,7 +23,7 @@ export default class Home extends React.Component {
       />
     )
   }
-  
+
   renderTabs = () => {
     const { navigation } = this.props;
 
@@ -66,6 +66,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <Block flex center style={styles.home}>
+        <Text h1> this is dev branch change</Text>
         {this.renderProducts()}
       </Block>
     );
@@ -74,7 +75,7 @@ export default class Home extends React.Component {
 
 const styles = StyleSheet.create({
   home: {
-    width: width,    
+    width: width,
   },
   search: {
     height: 48,
